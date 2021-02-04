@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "test": "react-app-rewired test setupFile ./src/config/setup-tests.ts",
     "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
