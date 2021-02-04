@@ -9,5 +9,6 @@ module.exports = override(
     '@modules': path.resolve(__dirname, '..', 'src', 'modules'),
     '@config': path.resolve(__dirname, '..', 'src', 'config'),
     '@core': path.resolve(__dirname, '..', 'src', 'core'),
+    '@container': path.resolve(__dirname, '..', 'src', 'container'),
   }),
 )
