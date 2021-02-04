@@ -60,5 +60,6 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,scss,sass,css,html,md}": "prettier --write"
-  }
+  },
+  "config-overrides-path": "config/config.overrides.js"
 }
